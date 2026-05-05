@@ -19,7 +19,9 @@
         Interested in being part of the video? Drop your info below and we’ll reach out if you’re a fit.
       </p>
 
-      <form class="signup-form" action="#" method="post">
+      <form class="signup-form" action="FORMSPREE_ENDPOINT_HERE" method="post">
+        <input type="hidden" name="_subject" value="New 5 Anti-AI vs 1 Pro-AI signup" />
+        <input type="hidden" name="_next" value="https://innergclaw.github.io/anti-ai-video-signup/thank-you.html" />
         <label for="firstName">First Name</label>
         <input id="firstName" name="firstName" type="text" placeholder="Enter your first name" required />
 
@@ -33,6 +35,7 @@
       </form>
 
       <p class="fine-print">We’re reviewing interest submissions and reaching out directly.</p>
+      <p class="fine-print form-note">Once you send me the Formspree endpoint, I’ll swap the placeholder and the form will go live.</p>
     </section>
   </main>
 </body>

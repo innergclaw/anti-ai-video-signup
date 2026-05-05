@@ -121,6 +121,30 @@ button:hover {
   font-size: 0.9rem;
 }
 
+.form-note {
+  margin-top: 10px;
+  font-size: 0.82rem;
+  opacity: 0.8;
+}
+
+.thank-you-card {
+  text-align: center;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 640px) {
   .signup-card {
     padding: 24px 20px;
