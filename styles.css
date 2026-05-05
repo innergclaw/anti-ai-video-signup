@@ -64,6 +64,36 @@ h1 {
   line-height: 1.6;
 }
 
+.info-block {
+  margin: 0 0 28px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.info-block h2 {
+  margin: 0 0 14px;
+  font-size: 1.1rem;
+}
+
+.project-points {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.project-points li + li {
+  margin-top: 10px;
+}
+
+.project-points a,
+.consent-row a,
+.back-link {
+  color: var(--primary);
+}
+
 .signup-form {
   display: grid;
   gap: 14px;
@@ -84,6 +114,27 @@ input {
   font: inherit;
   outline: none;
   transition: border-color 0.2s ease, transform 0.2s ease, background 0.2s ease;
+}
+
+.consent-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 6px;
+  line-height: 1.55;
+}
+
+.consent-row input {
+  width: 18px;
+  height: 18px;
+  margin: 3px 0 0;
+  padding: 0;
+  flex: 0 0 auto;
+  accent-color: var(--primary);
+}
+
+.consent-row span {
+  color: var(--muted);
 }
 
 input::placeholder {
